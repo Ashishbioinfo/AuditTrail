@@ -698,7 +698,7 @@ def show_detector_import(actor: str) -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Abhilekh · Flag Review", page_icon="🧭", layout="wide")
+    st.set_page_config(page_title="AbhiLekh · Flag Review", page_icon="🧭", layout="wide")
     st.markdown(
         """<style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
@@ -731,7 +731,7 @@ def main() -> None:
     initialize_database()
 
     with st.sidebar:
-        st.markdown('<div class="brand">Abhilekh</div><div class="eyebrow">FIELD REVIEW SYSTEM</div>', unsafe_allow_html=True)
+        st.markdown('<div class="brand">AbhiLekh</div><div class="eyebrow">FIELD REVIEW SYSTEM</div>', unsafe_allow_html=True)
         st.divider()
         role_label = st.radio("Workspace", ["Analyst", "Authority"], horizontal=True)
         role = "analyst" if role_label == "Analyst" else "authority"

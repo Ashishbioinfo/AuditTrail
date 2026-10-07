@@ -1,4 +1,4 @@
-# Abhilekh
+# AbhiLekh
 
 Streamlit flag-review and authority-validation portal for illustrative urban-change screening cases.
 
@@ -31,7 +31,7 @@ Push this repository to GitHub, create an app in Streamlit Community Cloud, sele
 ## Import anomalies from Construction Watch
 
 1. In the `Ai Detection For the Illigal Construction` project, load T1/T2 imagery for a configured zone and select a comparison layer.
-2. Under **Candidate locations**, choose **Export candidates to Abhilekh**. The CSV includes a stable source ID, candidate type, coordinates, estimated area, scene dates/IDs, and screening notes.
+2. Under **Candidate locations**, choose **Export candidates to AbhiLekh**. The CSV includes a stable source ID, candidate type, coordinates, estimated area, scene dates/IDs, and screening notes.
 3. In this portal's Analyst workspace, open **Import anomalies from Construction Watch**, upload the downloaded CSV, and select **Import detections**.
 4. Imported candidates enter the analyst queue as new flags. Re-importing the same export skips previously imported source IDs.
 

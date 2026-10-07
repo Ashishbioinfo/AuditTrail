@@ -1,4 +1,4 @@
-# Abhilekh
+# AbhiLekh
 
 Streamlit flag-review and authority-validation portal for illustrative urban-change screening cases.
 
